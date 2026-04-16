@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://zerodha-clone-mg3y.onrender.com";
+export const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3002/api";
 
 const trimTrailingSlash = (value) => value.replace(/\/+$/, "");
 

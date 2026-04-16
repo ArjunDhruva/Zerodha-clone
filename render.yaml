@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: stockbroker-backend
+    name: Zerodha-clone-backend
     runtime: node
     rootDir: backend
     buildCommand: npm install
@@ -18,7 +18,7 @@ services:
         sync: false
 
   - type: web
-    name: stockbroker-frontend
+    name: Zerodha-clone-frontend
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
@@ -37,7 +37,7 @@ services:
         value: https://zerodha-clone-dashboard-jwe7.onrender.com
 
   - type: web
-    name: stockbroker-dashboard
+    name: Zerodha-clone-dashboard
     runtime: static
     rootDir: dashboard
     buildCommand: npm install && npm run build

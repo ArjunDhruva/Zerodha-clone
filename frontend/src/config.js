@@ -1,4 +1,4 @@
-export const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3002/api";
+export const API_BASE_URL = process.env.REACT_APP_API_URL || "https://zerodha-clone-backend-c0ze.onrender.com";
 
 const trimTrailingSlash = (value) => value.replace(/\/+$/, "");
 
@@ -11,7 +11,7 @@ export const buildApiUrl = (path = "/") => {
 
 const getDefaultDashboardBaseUrl = () => {
   if (typeof window === "undefined") {
-    return "https://zerodha-clone-mg3y.onrender.com";
+    return "https://zerodha-clone-backend-c0ze.onrender.com";
   }
 
   return `${window.location.protocol}//${window.location.hostname}:3001`;

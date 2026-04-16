@@ -24,6 +24,7 @@ root.render(
             <Route path="/login" element={<AuthPage />} />
             <Route path="/signup" element={<AuthPage />} />
             <Route path="/register" element={<AuthPage />} />
+            <Route path="/login" element={<AuthPage />} />
           </Route>
           <Route element={<ProtectedRoute />}>
             <Route path="/*" element={<Home />} />

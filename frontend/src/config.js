@@ -18,7 +18,7 @@ const getDefaultDashboardBaseUrl = () => {
 };
 
 const DASHBOARD_BASE_URL = trimTrailingSlash(
-  "https://zerodha-clone-dashboard-jwe7.onrender.com" || getDefaultDashboardBaseUrl()
+  "process.env.REACT_APP_DASHBOARD_URL" || getDefaultDashboardBaseUrl()
 );
 
 export const DASHBOARD_URL = DASHBOARD_BASE_URL;

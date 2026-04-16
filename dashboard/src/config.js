@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://zerodha-clone-mg3y.onrender.com";
+export const API_BASE_URL = "https://zerodha-clone-backend-c0ze.onrender.com";
 
 const trimTrailingSlash = (value) => value.replace(/\/+$/, "");
 

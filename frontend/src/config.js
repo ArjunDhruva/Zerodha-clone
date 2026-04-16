@@ -1,4 +1,4 @@
-export const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3002/api";
+export const API_BASE_URL = "https://zerodha-clone-mg3y.onrender.com";
 
 const trimTrailingSlash = (value) => value.replace(/\/+$/, "");
 
@@ -11,14 +11,14 @@ export const buildApiUrl = (path = "/") => {
 
 const getDefaultDashboardBaseUrl = () => {
   if (typeof window === "undefined") {
-    return "http://localhost:3001";
+    return "https://zerodha-clone-mg3y.onrender.com";
   }
 
   return `${window.location.protocol}//${window.location.hostname}:3001`;
 };
 
 const DASHBOARD_BASE_URL = trimTrailingSlash(
-  process.env.REACT_APP_DASHBOARD_URL || getDefaultDashboardBaseUrl()
+  "https://zerodha-clone-mg3y.onrender.com" || getDefaultDashboardBaseUrl()
 );
 
 export const DASHBOARD_URL = DASHBOARD_BASE_URL;

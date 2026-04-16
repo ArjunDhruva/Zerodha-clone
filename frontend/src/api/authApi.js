@@ -6,5 +6,8 @@ const authApi = axios.create({
   baseURL: API_BASE_URL,
 });
 
-export const registerUser = (payload) => authApi.post("/auth/signup", payload);
-export const loginUser = (payload) => authApi.post("/auth/login", payload);
+export const registerUser = (payload) =>
+  authApi.post("/api/auth/signup", payload);
+
+export const loginUser = (payload) =>
+  authApi.post("/api/auth/login", payload);

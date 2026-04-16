@@ -11,13 +11,7 @@ const app = express();
 
 const cors = require("cors");
 
-app.use(cors({
-  origin: [
-    "https://zerodha-clone-frontend-u2y1.onrender.com",
-    "https://zerodha-clone-dashboard-jwe7.onrender.com"
-  ],
-  credentials: true
-}));
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {

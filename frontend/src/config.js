@@ -1,6 +1,6 @@
 export const API_BASE_URL = "https://zerodha-clone-backend-g7t7.onrender.com";
 
-const trimTrailingSlash = (value) => value.replace(/\/+$/, "");
+const trimTrailingSlash = (value="") => value.replace(/\/+$/, "");
 
 export const buildApiUrl = (path = "/") => {
   const normalizedBaseUrl = trimTrailingSlash(API_BASE_URL);
@@ -18,7 +18,7 @@ const getDefaultDashboardBaseUrl = () => {
 };
 
 const DASHBOARD_BASE_URL = trimTrailingSlash(
-  "process.env.REACT_APP_DASHBOARD_URL" || getDefaultDashboardBaseUrl()
+  process.env.REACT_APP_DASHBOARD_URL || getDefaultDashboardBaseUrl()
 );
 
 export const DASHBOARD_URL = DASHBOARD_BASE_URL;

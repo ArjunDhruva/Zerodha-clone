@@ -50,11 +50,6 @@ function Navbar() {
                 Support
               </Link>
             </li>
-            // <li className="nav-item">
-            //   <a className="nav-link active" href={getDashboardUrl("/login")}>
-            //     Dashboard
-            //   </a>
-            // </li>
           </ul>
         </div>
       </div>

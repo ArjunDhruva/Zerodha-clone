@@ -62,7 +62,7 @@ npm install
 
 ## Start the backend server
 ```bash
-npm run server
+npm start
 ```
 
 ## Start the frontend

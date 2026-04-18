@@ -9,7 +9,7 @@ This application was built to replicate the essential features of a modern tradi
 
 ## 🌐 Live Demo
 
-🔗 [Visit the Live Site]((https://zerodha-clone-frontend-u2y1.onrender.com))  
+🔗 [Visit the Live Site](https://zerodha-clone-frontend-u2y1.onrender.com)
 
 > Both frontend and backend are deployed on [Render](https://render.com/)
 

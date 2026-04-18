@@ -11,7 +11,7 @@ This application was built to replicate the essential features of a modern tradi
 
 🔗 [Visit the Live Site]((https://zerodha-clone-frontend-u2y1.onrender.com))  
 
-> Both frontend and backend are deployed on [Vercel](https://dashboard.render.com/)
+> Both frontend and backend are deployed on [Render](https://render.com/)
 
 ---
 
